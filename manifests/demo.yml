@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/lwander/spin-kub-v2-demo:release-1.0
+        image: index.docker.io/lwander/spin-kub-v2-demo:release-1.1
         ports:
         - containerPort: 8000
         readinessProbe:
